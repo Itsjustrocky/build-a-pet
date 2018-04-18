@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build-A-Pet</title>
+</head>
+<body>
+    <div id = "container">
+        <div id = "form-mask">
+            <form action="" id = 'form'>
+                <h1>Build A Pet</h1>
+                <div class = "input-container">
+                <h2>PET NAME:</h2>
+                <input type="text" id = 'name' required>
+                </div>
+                <div class = 'input-container'>
+                    <h2>Type of Animal:</h2>
+                    <select name="species" id="species">
+                        <option value="dragon">dragon</option>
+                        <option value="horse">horse</option>
+                        <option value="dog">dog</option>
+                        <option value="alligator">alligator</option>
+                        <option value="unicorn">unicorn</option>
+                    </select>
+                </div>
+                <div class = 'input-container'>
+                        <h2>Number of Legs:</h2>
+                        <input type='radio' value="1" name="legs" class='legs'>1
+                        <input type="radio" vaule='2' name='legs' class='legs'>2
+                        <input type="radio" value="3" name="legs" class='legs'>3
+                        <input type="radio" value="4" name="legs" class='legs'>4
+                    </div>
+                    <div class = 'input-container'>
+                        <h2>Special Abilities:</h2>
+                        <input type='checkbox' value="Teleportation" name="special" class="special">Teleportation
+                        <br>
+                        <input type="checkbox" value="Resurrection" name="special" class="special">Resurrection
+                        <br>
+                        <input type="checkbox" value="Time Control" name="special" class='special'>Time Control
+                        <br>
+                        <input type="checkbox" value='Magic Power' name="special" class="special">Magic Power
+                    </div>
+                    <div class='input-container'>
+                        <h2>Pet Email:</h2>
+                        <input type="email" name="email" id='email' required>
+                    </div>
+                    <div class='input-container'>
+                        <h2>Pet Password:</h2>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <br>
+                    <div class="input-container">
+                    <h2>Description</h2>
+                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input-container">
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

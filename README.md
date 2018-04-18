@@ -1,4 +1,4 @@
-# Build a Pet
+  # Build a Pet
 Build your own pet! Use your imagination!
 
 ## Objective
